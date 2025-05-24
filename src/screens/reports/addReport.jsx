@@ -213,6 +213,12 @@ const AddReport = () => {
         setUtTableData(updatedCostItems);
     };
 
+    const handleEquipmentItemChange = (index, field, value) => {
+        const updatedCostItems = [...equipmentMethod];
+        updatedCostItems[index][field] = value;
+        setEquipmentMethod(updatedCostItems);
+    };
+
     const handleOtherWeldingPropsItemChange = (index, field, value) => {
         const updatedCostItems = [...otherWeldingProps];
         updatedCostItems[index][field] = value;
@@ -408,6 +414,7 @@ const AddReport = () => {
         handleUTTableItemChange,
         handleRemoveUTTableItem,
         handleAddUTTableItem,
+        handleEquipmentItemChange,
         issuerInfo,
         setIssuerInfo,
         reviewerInfo,

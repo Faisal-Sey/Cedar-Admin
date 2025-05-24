@@ -2,12 +2,6 @@ import PropTypes from 'prop-types';
 import DocumentSpacer from "../../components/spacer/index.jsx";
 
 const ReportPageOneTable = ({ data }) => {
-    const liftingReports = [
-        "Forklift Visual report",
-        "Forklift Visual with MPI report",
-        "Crane Visual report",
-        "Crane Visual with MPI report",
-    ]
     return (
         <div className="table-container">
             <DocumentSpacer name={"page-one-bannerBottom"} defaultValue={20} />
@@ -18,7 +12,7 @@ const ReportPageOneTable = ({ data }) => {
                         {data?.report_title}
                     </th>
                 </tr>
-                {liftingReports.includes(data.report_type) && <tr>
+                <tr>
                     <th
                         colSpan="2"
                         rowSpan={3}
@@ -31,7 +25,7 @@ const ReportPageOneTable = ({ data }) => {
                         }}
                     >
                     </th>
-                </tr>}
+                </tr>
                 </thead>
                 <tbody>
                 <tr>

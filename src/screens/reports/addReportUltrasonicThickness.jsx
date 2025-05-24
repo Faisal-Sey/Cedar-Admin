@@ -343,12 +343,10 @@ const AddReportUltrasonicThickness = (props) => {
                                     value={dimension.property}
                                     required
                                     onChange={(e) =>
-                                        props.handleTableItemChange(
+                                        props.handleEquipmentItemChange(
                                             index,
                                             'property',
                                             e.target.value,
-                                            props.equipmentMethod,
-                                            props.setEquipmentMethod
                                         )}
                                 />
                             </td>
@@ -360,12 +358,10 @@ const AddReportUltrasonicThickness = (props) => {
                                     value={dimension.value}
                                     required
                                     onChange={(e) =>
-                                        props.handleTableItemChange(
+                                        props.handleEquipmentItemChange(
                                             index,
                                             'value',
                                             e.target.value,
-                                            props.equipmentMethod,
-                                            props.setEquipmentMethod
                                         )}
                                 />
                             </td>

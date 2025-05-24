@@ -21,6 +21,7 @@ const AddReportNormal = (props) => {
         "Size",
         "Material"
     ]
+    console.log("equipmentsData", props.equipmentsData)
     return (
         <>
             <h3 className="font-bold mb-4">Client Details</h3>
