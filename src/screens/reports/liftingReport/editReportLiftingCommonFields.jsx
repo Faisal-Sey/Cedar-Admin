@@ -1,5 +1,5 @@
 import TableList from "../../../components/tableList/tableList.jsx";
-import {assetTableHeaders, itemTableHeaders, personnelHeaders} from "../../../utils/data.js";
+import {assetTableHeaders, itemTableHeaders} from "../../../utils/data.js";
 import BottomComponent from "../../../components/bottomComponent/bottomComponent.jsx";
 
 
@@ -100,13 +100,13 @@ const formData = {
                 },
                 {
                     "label": "Date of examination",
-                    "type": "date",
+                    "type": "text",
                     "name": "examination_date",
                     "required": true
                 },
                 {
                     "label": "Date of Next Examination",
-                    "type": "date",
+                    "type": "text",
                     "name": "next_examination_date"
                 },
                 {

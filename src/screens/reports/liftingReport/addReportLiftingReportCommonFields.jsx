@@ -100,13 +100,13 @@ const formData = {
                 },
                 {
                     "label": "Date of examination",
-                    "type": "date",
+                    "type": "text",
                     "name": "examination_date",
                     "required": true
                 },
                 {
                     "label": "Date of Next Examination",
-                    "type": "date",
+                    "type": "text",
                     "name": "next_examination_date"
                 },
                 {

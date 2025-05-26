@@ -25,7 +25,7 @@ export default function PreviewChecklistPageOne(
             </div>
             <div style={{background: "#D8D8D8", padding: "10px 5px", border: "1px solid #000", borderTop: 0}}>
                 <p className={"font-bold"}>
-                    Any reply in a shaded box (RED) requires
+                    Any reply in a box requires
                     corrective action prior to using the {toTitleCase(checklist.checklist_type)}.
                 </p>
             </div>
