@@ -564,6 +564,17 @@ const EditReport = () => {
                                     required
                                 />
 
+                                <label className="block text-gray-700 text-md font-bold mb-2">Sub Report Title:</label>
+                                <input
+                                    className="mb-5 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    type="text"
+                                    placeholder="Sub Report Title"
+                                    name="sub_title"
+                                    value={state.sub_title}
+                                    onChange={handleChange}
+                                    required
+                                />
+
                                 <label className="block text-gray-700 text-md font-bold mb-2">Report Type:</label>
                                 <select
                                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

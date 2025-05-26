@@ -13,18 +13,19 @@ const ReportPageOneTable = ({ data }) => {
                     </th>
                 </tr>
                 <tr>
-                    <th
+                    <td
                         colSpan="2"
-                        rowSpan={3}
-                        className="header-cell"
+                        rowSpan={2}
+                        className="data-cell"
                         style={{
                             border: "none",
                             borderTop: '1px solid #ccc',
                             borderBottom: '1px solid #ccc',
-                            height: 22
+                            height: 15
                         }}
                     >
-                    </th>
+                        {data.sub_title}
+                    </td>
                 </tr>
                 </thead>
                 <tbody>
