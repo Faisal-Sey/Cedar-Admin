@@ -15,12 +15,13 @@ const ReportPageOneTable = ({ data }) => {
                 <tr>
                     <th
                         colSpan="2"
+                        rowSpan={3}
                         className="header-cell"
                         style={{
                             border: "none",
                             borderTop: '1px solid #ccc',
                             borderBottom: '1px solid #ccc',
-                            height: 15
+                            height: 22
                         }}
                     >
                     </th>
